@@ -43,6 +43,7 @@ apt-get update -qq
 # Install CrashPlan dependencies
 apt-get install -qy --force-yes --no-install-recommends \
                 grep \
+                python-xdg \
                 sed \
                 cpio \
                 gzip \
